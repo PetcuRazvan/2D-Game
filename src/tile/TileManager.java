@@ -32,7 +32,7 @@ public class TileManager {
             tile[1] = new Tile();
             tile[1].image = ImageIO.read(getClass().getResourceAsStream("/tiles/dirt_tile.png"));
             tile[2] = new Tile();
-            tile[2].image = ImageIO.read(getClass().getResourceAsStream("/tiles/water_tile.png"));
+            tile[2].image = ImageIO.read(getClass().getResourceAsStream("/tiles/water_tile2.png"));
         }catch(IOException e) {
             e.printStackTrace();
         }
