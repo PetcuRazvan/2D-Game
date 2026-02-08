@@ -7,7 +7,7 @@ public class Main {
         JFrame window = new JFrame();
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setResizable(false);
-        window.setTitle("nush ce fac");
+        window.setTitle("2D Game");
 
         GamePanel gamepanel = new GamePanel();
         window.add(gamepanel);
